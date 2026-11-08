@@ -1,0 +1,33 @@
+video {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+iframe {
+  width: 300px;
+  height: 200px;
+}
+.contact-wrapper {
+  display: flex; /* შვილებს ალაგებს ერთ ხაზზე */
+  gap: 30px; /* დაშორება მათ შორის */
+}
+
+.contact-form,
+.contact-info {
+  width: 50%; /* ორივე ნახევარ სიგანეს იკავებს */
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.step {
+    width:100vw;
+    height:400px;
+}
+h3{
+    font-size: 13px;
+}
